@@ -1,5 +1,4 @@
-import { Component, Input, Output } from '@angular/core';
-import { EventEmitter } from 'node:stream';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { IProduct } from '../../../shared/models/product.interface';
 
 @Component({
