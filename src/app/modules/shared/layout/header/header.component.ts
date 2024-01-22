@@ -19,4 +19,8 @@ export class HeaderComponent {
   private cartService = inject(CartService);
   cart = this.cartService.cart  ;
   total = this.cartService.total;
+
+  openMapModal(): void {
+    
+  }
 }
