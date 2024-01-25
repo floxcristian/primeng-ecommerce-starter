@@ -12,8 +12,9 @@ export class AppComponent implements OnInit {
   title = 'ecommerce-starter';
 
   constructor() {
-    console.log(window.location.pathname);
-    afterNextRender(() => {});
+    afterNextRender(() => {
+      console.log(window.location.pathname);
+    });
   }
 
   ngOnInit(): void {}

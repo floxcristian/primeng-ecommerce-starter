@@ -2,13 +2,12 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AuthApiService {
-  private http = inject(HttpClient)
-  constructor() { }
+  private http = inject(HttpClient);
 
-  login(){
-    return this.http.get('')
+  login() {
+    return this.http.get('');
   }
 }
